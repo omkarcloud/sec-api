@@ -24,11 +24,11 @@ REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct li
 
 1. Create account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up)
 
-![Sign Up](https://raw.githubusercontent.com/omkarcloud/assets/master/images/signup.png)
+<!-- ![Sign Up](https://raw.githubusercontent.com/omkarcloud/assets/master/images/signup.png) -->
 
 2. Get API key from [omkar.cloud/api-key](https://www.omkar.cloud/api-key)
 
-![Copy API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/enrichment-key-omkar.png)
+<!-- ![Copy API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/enrichment-key-omkar.png) -->
 
 3. Include `API-Key` header in requests
 
