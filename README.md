@@ -7,6 +7,7 @@ REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct li
 - Single endpoint for all supported filing types
 - Returns structured JSON with direct SEC EDGAR URLs
 - Supports 10-K, 10-Q, 8-K, S-1, S-2, S-3, DEF14A, 13D
+- Filings are cached for fast API responses and minimal load on SEC servers.
 - 5,000 requests/month on free tier
 - Example Response:
 ```json
@@ -31,6 +32,8 @@ REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct li
 <!-- ![Copy API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/enrichment-key-omkar.png) -->
 
 3. Include `API-Key` header in requests
+
+Note: 5000 requests/month free.
 
 ## Quick Start
 
