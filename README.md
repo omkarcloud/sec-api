@@ -1,3 +1,5 @@
+![SEC API Featured Image](https://raw.githubusercontent.com/omkarcloud/sec-api/main/sec-api-featured-image.png)
+
 # SEC API
 
 REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct links to official SEC documents.
