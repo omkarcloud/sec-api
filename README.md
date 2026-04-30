@@ -1,5 +1,3 @@
-![SEC API Featured Image](https://raw.githubusercontent.com/omkarcloud/sec-api/main/sec-api-featured-image.png)
-
 # SEC API
 
 REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct links to official SEC documents.
@@ -9,8 +7,7 @@ REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct li
 - Single endpoint for all supported filing types
 - Returns structured JSON with direct SEC EDGAR URLs
 - Supports 10-K, 10-Q, 8-K, S-1, S-2, S-3, DEF14A, 13D
-- Filings are cached for fast API responses and minimal load on SEC servers.
-- 5,000 requests/month on free tier
+- 100 requests/month on free tier
 - Example Response:
 ```json
 [
@@ -23,19 +20,9 @@ REST API for retrieving SEC EDGAR filings. Returns filing metadata and direct li
 ]
 ```
 
-## Authentication
+## Get API Key
 
-1. Create account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up)
-
-<!-- ![Sign Up](https://raw.githubusercontent.com/omkarcloud/assets/master/images/signup.png) -->
-
-2. Get API key from [omkar.cloud/api-key](https://www.omkar.cloud/api-key)
-
-<!-- ![Copy API Key](https://raw.githubusercontent.com/omkarcloud/assets/master/images/enrichment-key-omkar.png) -->
-
-3. Include `API-Key` header in requests
-
-Note: 5000 requests/month free.
+Create an account at [omkar.cloud](https://www.omkar.cloud/auth/sign-up?redirect=/api-key) to get your API key, and use it in requests. 100 requests are free every month.
 
 ## Quick Start
 
@@ -210,17 +197,13 @@ elif response.status_code == 429:
 
 | Plan | Price | Requests/Month |
 |------|-------|----------------|
-| Free | $0 | 5,000 |
-| Starter | $25 | 100,000 |
-| Grow | $75 | 1,000,000 |
-| Scale | $150 | 10,000,000 |
+| Free | $0 | 100 |
+| Starter | $16 | 3,000 |
+| Grow | $48 | 15,000 |
+| Scale | $148 | 75,000 |
 
 ## Support
 
 [![Contact Us on WhatsApp about SEC API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/whatsapp-us.png)](https://api.whatsapp.com/send?phone=918178804274&text=I%20have%20a%20question%20about%20the%20SEC%20API.)
 
 [![Contact Us on Email about SEC API](https://raw.githubusercontent.com/omkarcloud/assets/master/images/ask-on-email.png)](mailto:happy.to.help@omkar.cloud?subject=SEC%20API%20Question)
-
-## [Love It? Star It ⭐!](https://github.com/omkarcloud/sec-api/stargazers)
-
-If this tool has been helpful, please give us a [**star ⭐** on GitHub.](https://github.com/omkarcloud/sec-api/stargazers)
